@@ -2,48 +2,69 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Drag Race!</title>
-  <link rel="stylesheet" href="css/normalize.css" media="all">
-  <link rel="stylesheet" href="css/main.css" media="all">
+	<title>Race</title>
+	<link rel="stylesheet" href="main.css" media="all">
 </head>
 <body>
-  <div id="christmas-tree" class="center">
-    pre-stage
-    <div id="pre-stage" class="lights">
-      <div></div><div></div>
-      <div></div><div></div>
-    </div>
-    stage
-    <div id="stage" class="lights">
-      <div></div><div></div>
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    <div id="start-lights" class="lights">
-      <div></div><div></div>
-    </div>
-    </div>
-  </div>
-  <div id="racetrack" class="center">
-    <div class="abs" id="strip">
-      <div id="dragster" class="abs"></div>
-      <div id="pre-staged" class="place abs"></div>
-      <div id="staged" class="place abs"></div>
-      <div id="start" class="abs"></div>
-      <div id="finish" class="place abs"></div>
-    </div>
-  </div>
-  <script src="js/bundle.js"></script>
+
+<div id="christmas-tree">
+
+
+<div id="prestagelight">
+<p>PRESTAGE</p>
+	<div class ="on"></div>
+	<div  class ="on" style = "margin-right: 10px"></div>
+	<div class ="on"></div>
+	<div class ="on"></div>
+</div>
+<div id="stagelight">
+<p>STAGE</p>
+	<div></div>
+	<div style = "margin-right: 10px"></div>
+	<div></div>
+	<div></div>
+</div>
+<div class="startlight">
+<!--
+Insert a class "on" -->
+	<div></div>
+	<div></div>
+</div>
+<div class="startlight1">
+	<div ></div>
+	<div ></div>
+</div>
+<div class="startlight2">
+	<div></div>
+	<div></div>
+</div>
+<div id="greenlight">
+	<div></div>
+	<div></div>
+</div>
+
+</div>
+
+<div id="racetrack" class="abs">
+	<div class="abs" id = "track"></div>
+	<div class="abs" id = "prestageline"></div>
+	<div class="abs" id = "startline"></div>
+	<div class="abs" id = "finishline"></div>
+	<div class="abs" id ="driver" style="left: 5px;"></div>
+</div>
+
+<script src="bundle.js"></script>
+
+<!-- 	// var driverDiv = document.getElementById('driver');
+	// driverDiv.style.left = "5px";
+	// 	  window.addEventListener('keyup', function(event) {
+ //      if (event.keyCode === 39) {
+ //      	driverDiv.style.left = parseInt(driverDiv.style.left, 10) + 50 + "px";
+ //      }
+ //      if (event.keyCode === 37) {
+ //      	driverDiv.style.left = parseInt(driverDiv.style.left, 10) - 50 + "px";
+ //      }
+ //  });s
+ -->
 </body>
 </html>

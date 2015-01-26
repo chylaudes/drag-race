@@ -1,0 +1,171 @@
+.abs {
+  position: absolute;
+}
+
+
+
+
+/********** LIGHTS *************/
+#christmas-tree {
+
+  margin: 1px auto;
+  width: 119px;
+  height: 348px;
+  background: black;
+  color: white;
+  text-align: center;
+  border: 4px solid #ccc;
+  margin-bottom: 30px;
+
+}
+
+p {
+	margin-top: 2px;
+}
+
+#prestagelight div {
+height: 15px;
+width: 15px;
+border-radius: 10px;
+background-color: yellow;
+display: inline-block;
+margin-top: -11px;
+margin-bottom: 5px;
+}
+
+#prestagelight div.on{
+background-color: yellow;
+}
+
+#prestagelight {
+font-family: sans-serif;
+font-size: 15px;
+text-align: center;
+border-bottom: 1px solid white;
+}
+
+
+
+
+#stagelight {
+font-family: sans-serif;
+font-size: 15px;
+text-align: center;
+border-bottom: 1px solid white;
+}
+
+#stagelight div {
+height: 15px;
+width: 15px;
+border-radius: 10px;
+background-color: white;
+display: inline-block;
+margin-top: -11px;
+margin-bottom: 5px;
+}
+
+.startlight div{
+height: 30px;
+width: 30px;
+border-radius: 15px;
+background-color: white;
+display: inline-block;
+margin-top: 20px;
+margin-bottom: 5px;
+}
+
+
+
+.startlight1 div{
+height: 30px;
+width: 30px;
+border-radius: 15px;
+background-color: white;
+display: inline-block;
+margin-top: 20px;
+margin-bottom: 5px;
+}
+
+
+.startlight2 div{
+height: 30px;
+width: 30px;
+border-radius: 15px;
+background-color: white;
+display: inline-block;
+margin-top: 20px;
+margin-bottom: 5px;
+}
+
+
+
+#greenlight div {
+height: 30px;
+width: 30px;
+border-radius: 15px;
+background-color: white;
+display: inline-block;
+margin-top: 20px;
+margin-bottom: 5px;
+}
+
+#greenlight div.green {
+background-color: green;
+  }
+
+#greenlight div.red {
+background-color: red;
+  }
+/*******Racetrack! ************/
+
+#racetrack {
+  width: 90%;
+  height: 120px;
+  margin-left: 10%
+    }
+
+#track {
+  background: green;
+  width: 90%;
+  height: 120px;
+  border: 2px solid black;
+}
+
+#prestageline {
+height: 124px;
+width: 10px;
+  background: yellow;
+  left: 53px;
+}
+
+#startline {
+height: 124px;
+width: 10px;
+ left: 124px;
+  background: white;
+}
+
+
+#finishline {
+height: 124px;
+width: 10px;
+  right: 170px;
+  background: white;
+}
+
+
+
+#driver {
+/*  background: url(../images/mario.png) no-repeat;*/
+background-color: blue;
+  background-size: 39px 44px;
+  width: 39px;
+  height: 44px;
+  top: 42px;
+  z-index: 100;
+
+}
+
+
+
+
